@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.counter-container {
+  display: flex;
+}
+
+.counter {
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+.count {
+  font-size: 8em;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: white;
+  border: 5px solid black;
+  color: black;
+  margin: 0 1em;
+  padding: 1em;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
